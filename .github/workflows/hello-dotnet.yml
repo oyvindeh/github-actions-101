@@ -36,4 +36,5 @@ jobs:
           name: test-report
           path: Notes.Api.Test/TestResults/*.trx
           path-replace-backslashes: dotnet-trx
+          reporter: all
           
